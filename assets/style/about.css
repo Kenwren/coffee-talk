@@ -1,0 +1,59 @@
+@import url(./index.css);
+
+/*----------------------------------*/
+/*          Landing About Us        */
+/*----------------------------------*/
+
+.landing-about {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)), url(../img/about-coffee-talk-flip.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    height:400px;
+}
+
+/*----------------------------------*/
+/*          About US                */
+/*----------------------------------*/
+
+.about-us {
+    width: 100%;
+    display:flex;
+}
+
+.image-section {
+    width: 40%;
+    display: grid;
+    place-items: center;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 1px grey;
+}
+
+.content-info {
+    width: 80%;
+    line-height: auto;
+}
+.content-info h2 {
+    letter-spacing: 3.5px;
+}
+
+.about-us-text{
+    justify-content: right;
+}
+
+/*----------------------------------*/
+/*          Contact/Questions       */
+/*----------------------------------*/
+
+.questions{
+    height: 80px;
+    display: grid;
+    place-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
